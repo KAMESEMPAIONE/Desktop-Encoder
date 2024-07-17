@@ -1,0 +1,207 @@
+@import "https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap";
+.Encoder {
+  background: url(../footback.png) 0 0 / cover no-repeat;
+  min-height: 100vh;
+}
+.Encoder__title {
+  font-family:
+    Permanent Marker,
+    cursive;
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+  padding: 50px 0 0;
+}
+.Encoder__content {
+  max-width: 1300px;
+  margin: 45px auto 0;
+  padding: 40px;
+}
+.Encoder__params {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.Encoder__params input,
+.Encoder__params select,
+.Encoder__params button {
+  font-size: 1.2rem;
+  padding: 7px;
+  margin-right: 35px;
+}
+.Encoder__params button:last-child {
+  margin-right: 0;
+}
+.Encoder__cipher-type option {
+  font-size: 1.2rem;
+}
+.Encoder__cipher-key {
+  border: 3px solid transparent;
+}
+.Encoder__button {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 7px 15px;
+  transition: 0.3s;
+}
+.Encoder__button:hover {
+  background: #464646;
+  color: #e3e3e3;
+}
+.Encoder__areas {
+  display: flex;
+  justify-content: center;
+}
+.Encoder__areas > * {
+  margin-right: 35px;
+}
+.Encoder__areas > *:last-child {
+  margin-right: 0;
+}
+.Encoder__textarea {
+  resize: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  min-height: 580px;
+  max-height: 580px;
+  width: 600px;
+  border: 3px solid transparent;
+}
+.Encoder__error {
+  border: 3px solid red;
+}
+.Encoder__error-container {
+  position: relative;
+}
+.Encoder__error-message {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: red;
+}
+@media screen and (max-width: 1200px) {
+  .Encoder__params {
+    justify-content: center;
+  }
+  .Encoder__textarea {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Encoder__content {
+    margin: 25px auto 0;
+    padding: 20px 40px;
+  }
+  .Encoder__params input,
+  .Encoder__params select,
+  .Encoder__params button {
+    font-size: 1.2rem;
+    padding: 7px;
+    margin-right: 25px;
+  }
+  .Encoder__params button:last-child {
+    margin-right: 0;
+  }
+  .Encoder__areas {
+    flex-wrap: wrap;
+  }
+  .Encoder__areas > * {
+    margin-right: 0;
+  }
+  .Encoder__textarea {
+    resize: vertical;
+    min-width: 600px;
+    height: 300px;
+    min-height: 220px;
+    max-height: 500px;
+    margin-bottom: 15px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+ul,
+li,
+a,
+input,
+button {
+  display: block;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  height: 100%;
+}
